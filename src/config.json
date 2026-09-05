@@ -1,0 +1,18 @@
+{
+  "data_dir": "data/processed",
+  "cropped_dir":"data/cropped",
+  "input_shape": [128, 130, 1],
+  "num_classes":10,
+  "dropout_rate": 0.25,
+  "model_type": "cnn_attention",
+  "img_height": 128,
+  "img_width": 130,
+  "batch_size": 64,
+  "epochs": 100,
+  "model_save_path": "models/attentionCNN",
+  "log_dir_root": "models/logs/fit",
+  "predictions_log_dir": "models/logs/predictions/attentionCNN", 
+  "predictions_results": "models/logs/predictionsResults/attentionCNN", 
+  "random_seed": 2, 
+  "eval_type" : "edge"
+}
